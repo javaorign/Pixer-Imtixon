@@ -503,6 +503,9 @@ footer{
   color: white;
 }
 .footer-nav-item-link:active{
+  opacity: 0.5;
+}
+.footer-nav-item-link:active{
   opacity: 0.6;
 }
 .footer-social-links{
@@ -535,4 +538,7 @@ footer{
   align-items: center;
   justify-content: center;
   row-gap: 8px;
+}
+.social-link:active{
+  opacity: 0.5;
 }
